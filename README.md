@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-RabinDynamicFooter::FooterCopyright.copyright("RabinPoudyal", "RailsDeveloper")
+<%= raw RabinDynamicFooter::FooterCopyright.copyright("RabinPoudyal", "RailsDeveloper") %>
 ```
 
 ## Development
